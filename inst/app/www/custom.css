@@ -1,0 +1,69 @@
+.content-wrapper,
+.right-side {
+  background-color: #eacc9f;
+}
+
+.main-header .logo {
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* logo */
+  .skin-yellow .main-header .logo {
+    background-color: #cc8112
+  }
+
+
+/* navbar (rest of the header) */
+  .skin-yellow .main-header .navbar {
+    background-color: #cc8114;
+  }
+
+
+/* main sidebar */
+  .skin-yellow .main-sidebar {
+    background-color: #361728;
+  }
+
+
+/* other links in the sidebarmenu */
+  .skin-yellow .main-sidebar .sidebar .sidebar-menu a{
+    background-color: #363738;
+      color: #ffffff;
+  }
+
+
+/* active selected tab in the sidebarmenu */
+  .skin-yellow .main-sidebar .sidebar .sidebar-menu .active a{
+    background-color: #cc8114;
+  }
+
+
+.box.box-solid.box-warning>.box-body {
+  color:#ffffff;
+    background:#363738;
+}
+
+/* Progress indicator position */
+.shiny-notification{
+  position: fixed;
+  top: 33%;
+  left: 33%;
+  right: 33%;
+}
+
+#plot-container {
+position: relative;
+}
+#loading-spinner {
+position: absolute;
+left: 50%;
+top: 50%;
+z-index: -1;
+margin-top: -33px;  /* half of the spinner's height */
+margin-left: -33px; /* half of the spinner's width */
+}
+#plot.recalculating {
+z-index: -2;
+}
